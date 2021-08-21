@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.l23{
+    margin: 0%;
+    font-size: 24px;
+    position: relative;
+    color: whitesmoke;
+}
+.l23::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    color: rgb(54, 78, 131);
+    border-right: 2px solid rgb(26, 49, 99);
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,26%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 26%;
+    }
+}
+.sign{
+    margin-top: -0.4rem;
+    width: 100%;
+    height: 75%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.update2{
+    margin-top: 6%;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.boxiio{
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    background-color: rgb(206, 211, 221);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+.pic{
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dicon2{
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.writeup{
+    width: 16rem;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.download{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.dicon{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    height: 70px;
+    width: 414px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    position: fixed;
+    background-color: rgb(54, 78, 131);
+}
+.home{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ico{
+    width: 50px;
+    height: 50px;
+}

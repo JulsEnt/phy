@@ -1,0 +1,32 @@
+.mainbox12{
+    position: absolute;
+    left: 70%;
+    width: 30%;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(53, 108, 180, 0.932);
+    transition: 0.3s all ease-in-out;
+    transform: translateX(100%)
+}
+.mainbox12.show{
+    transform: translateX(0%);
+    display: initial;
+}
+.nana{
+    margin: 0%;
+    padding: 0.1rem 0.45rem;
+    border-bottom: 2px solid rgb(252, 252, 252);
+    color: white;
+    cursor: pointer;
+}
+.nana:hover{
+    transition: 0.1s linear;
+    font-size: 20px;
+    background: rgb(173, 183, 192);
+    cursor: pointer;
+}

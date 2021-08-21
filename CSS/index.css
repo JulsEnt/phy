@@ -1,0 +1,191 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 78, 131);
+}
+a:hover{
+    background: none;
+}
+.head{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.title{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title-txt{
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    margin-left: 15px;
+
+}
+.title-txt2{
+    margin: 0%;
+    color: white;
+}
+.profile3{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+}
+.profile4{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+}
+.profile2{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.menu{
+    width: 88%;
+    height: 60px;
+}
+.sign-up{
+    margin-top: -0.4rem;
+    width: 100%;
+    height: 75%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.box{
+    margin-top: -7rem;
+    width: 40%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    width: 90%;
+    height: 70%;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.list{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.l1{
+    margin: 0%;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.l2{
+    margin: 0%;
+    font-size: 24px;
+    position: relative;
+    color: whitesmoke;
+}
+.l2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    color: rgb(54, 78, 131);
+    border-right: 2px solid rgb(26, 49, 99);
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,25%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 15%;
+    }
+}
+.l3{
+    margin: 0%;
+    color: rgb(15, 70, 153);
+}
+.iconic{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.footer{
+    height: 70px;
+    width: 414px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    position: fixed;
+    background-color: rgb(54, 78, 131);
+}
+.home{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ico{
+    width: 50px;
+    height: 50px;
+}
+.love{
+    width: 20px;
+    height: 20px;
+}

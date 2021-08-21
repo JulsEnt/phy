@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sign-ups2{
+    margin-top: -0.4rem;
+    width: 100%;
+    height: 75%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.update200{
+    margin-top: 2%;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.l22{
+    margin: 0%;
+    font-size: 24px;
+    position: relative;
+    color: whitesmoke;
+}
+.l22::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    color: rgb(54, 78, 131);
+    border-right: 2px solid rgb(26, 49, 99);
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,26%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 26%;
+    }
+}
